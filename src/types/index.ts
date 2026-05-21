@@ -11,6 +11,7 @@ export interface Section {
   title: string
   subtitle?: ReactNode
   content?: string
+  speech?: string
   image?: string
   imagePosition?: 'right' | 'background'
   cards?: ProfessionCard[]
